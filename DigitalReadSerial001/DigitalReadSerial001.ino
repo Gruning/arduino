@@ -16,8 +16,8 @@ void setup() {
   // initialize serial communication at 9600 bits per second:
 
   //library Serial
-  //Serial.end(9600);
-  //Serial.stop(9600);
+  //Serial.end();
+  //Serial.write();
   
   Serial.begin(9600);
   // make the pushbutton's pin an input:
