@@ -8,7 +8,7 @@ void setup(){
     pinMode(led_3_pin, OUTPUT);
 }
 
-void void loop()
+void loop()
 {
     //make led1 blink once
     digitalWrite(led_1_pin, HIGH);
