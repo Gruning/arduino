@@ -10,13 +10,11 @@ void setup(){
 
 void loop()
 {
-    //make led1 blink once
     digitalWrite(led_1_pin, HIGH);
     delay(500);
     digitalWrite(led_1_pin, LOW);
     delay(500);
 
-    //make led2 blink twice
     digitalWrite(led_2_pin, HIGH);
     delay(500);
     digitalWrite(led_2_pin, LOW);
@@ -26,7 +24,6 @@ void loop()
     digitalWrite(led_2_pin, LOW);
     delay(500);
     
-    //make led3 blink three times
     for (int i = 0; i < 3; i++)
     {
         digitalWrite(led_3_pin, HIGH);
